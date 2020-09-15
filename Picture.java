@@ -52,22 +52,22 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
-            castle.moveHorizontal(-100);
+            castle.moveHorizontal(-150);
             castle.moveVertical(-20);
-            castle.changeSize(200);
-            castle.changeColor("gray");
+            castle.changeSize(230);
+            castle.changeColor("light_grey");
             castle.makeVisible();
             
-            left_tower.moveHorizontal(-130);
-            left_tower.moveVertical(-80);
-            left_tower.changeSize(30);
-            left_tower.changeColor("gray");
+            left_tower.moveHorizontal(-150);
+            left_tower.moveVertical(-70);
+            left_tower.changeSize(50);
+            left_tower.changeColor("lightGrey");
             left_tower.makeVisible();
             
-            right_tower.moveHorizontal(70);
-            right_tower.moveVertical(-80);
-            right_tower.changeSize(30);
-            right_tower.changeColor("gray");
+            right_tower.moveHorizontal(30);
+            right_tower.moveVertical(-70);
+            right_tower.changeSize(50);
+            right_tower.changeColor("light_Grey");
             right_tower.makeVisible();
             
             // window.changeColor("black");
