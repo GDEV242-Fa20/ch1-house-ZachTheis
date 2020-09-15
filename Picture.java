@@ -119,6 +119,12 @@ public class Picture
             window1.moveHorizontal(-30);
             window1.makeVisible();
             
+            window2.changeSize(25);
+            window2.changeColor("yellow");
+            window2.moveVertical(40);
+            window2.moveHorizontal(35);
+            window2.makeVisible();
+            
             window3.changeSize(25);
             window3.changeColor("yellow");
             window3.moveVertical(40);
