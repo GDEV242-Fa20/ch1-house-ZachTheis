@@ -110,6 +110,12 @@ public class Picture
             right_tower_roof.moveHorizontal(155);
             right_tower_roof.moveVertical(-140);
             right_tower_roof.makeVisible();
+            
+            window1.changeSize(25);
+            window1.changeColor("yellow");
+            window1.moveVertical(-40);
+            window1.moveHorizontal(-80);
+            window1.makeVisible();
     
             // sun.changeColor("yellow");
             // sun.moveHorizontal(100);
