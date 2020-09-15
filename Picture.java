@@ -70,7 +70,13 @@ public class Picture
             right_tower.changeColor("blue");
             right_tower.makeVisible();
             
-            parapet3.moveVertical(-30);
+            parapet1.moveVertical(-40);
+            parapet1.moveHorizontal(40);
+            parapet1.changeSize(20);
+            parapet1.changeColor("magenta");
+            parapet1.makeVisible();
+            
+            parapet3.moveVertical(-40);
             parapet3.moveHorizontal(-10);
             parapet3.changeSize(20);
             parapet3.changeColor("magenta");
