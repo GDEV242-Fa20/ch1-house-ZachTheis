@@ -70,22 +70,27 @@ public class Picture
             right_tower.changeColor("green");
             right_tower.makeVisible();
             
+            king.moveVertical(-40);
+            king.moveHorizontal(-50);
+            king.changeColor("magenta");
+            king.makeVisible();
+            
             parapet1.moveVertical(-40);
             parapet1.moveHorizontal(-85);
             parapet1.changeSize(20);
-            parapet1.changeColor("magenta");
+            parapet1.changeColor("blue");
             parapet1.makeVisible();
             
             parapet2.moveVertical(-40);
             parapet2.moveHorizontal(-45);
             parapet2.changeSize(20);
-            parapet2.changeColor("magenta");
+            parapet2.changeColor("blue");
             parapet2.makeVisible();
             
             parapet3.moveVertical(-40);
             parapet3.moveHorizontal(-5);
             parapet3.changeSize(20);
-            parapet3.changeColor("magenta");
+            parapet3.changeColor("blue");
             parapet3.makeVisible();
             
             // window.changeColor("black");
