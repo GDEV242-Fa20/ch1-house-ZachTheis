@@ -14,6 +14,8 @@ public class Picture
     private Square castle;
     private Square left_tower;
     private Square right_tower;
+    private Square upper_door;
+    private Square lower_door;
     private Square parapet1;
     private Square parapet2;
     private Square parapet3;
@@ -35,6 +37,8 @@ public class Picture
         castle = new Square();
         left_tower = new Square();
         right_tower = new Square();
+        upper_door = new Square();
+        lower_door = new Square();
         parapet1 = new Square();
         parapet2 = new Square();
         parapet3 = new Square();
@@ -130,6 +134,10 @@ public class Picture
             window3.moveVertical(40);
             window3.moveHorizontal(95);
             window3.makeVisible();
+            
+            lower_door.changeSize(30);
+            lower_door.changeColor("black");
+            lower_door.makeVisible();
     
             // sun.changeColor("yellow");
             // sun.moveHorizontal(100);
