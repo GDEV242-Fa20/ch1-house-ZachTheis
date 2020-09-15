@@ -43,6 +43,7 @@ public class Picture
         //sun = new Circle();
         window1 = new Circle();
         window2 = new Circle();
+        king = new Person();
         drawn = false;
     }
 
@@ -70,9 +71,9 @@ public class Picture
             right_tower.changeColor("green");
             right_tower.makeVisible();
             
-            king.moveVertical(-40);
-            king.moveHorizontal(-50);
-            king.changeColor("magenta");
+            king.moveVertical(-140);
+            // king.moveHorizontal(-50);
+            // king.changeColor("magenta");
             king.makeVisible();
             
             parapet1.moveVertical(-40);
