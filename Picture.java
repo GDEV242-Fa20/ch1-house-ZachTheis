@@ -61,13 +61,13 @@ public class Picture
             left_tower.moveHorizontal(-150);
             left_tower.moveVertical(-70);
             left_tower.changeSize(50);
-            left_tower.changeColor("blue");
+            left_tower.changeColor("green");
             left_tower.makeVisible();
             
             right_tower.moveHorizontal(30);
             right_tower.moveVertical(-70);
             right_tower.changeSize(50);
-            right_tower.changeColor("blue");
+            right_tower.changeColor("green");
             right_tower.makeVisible();
             
             parapet1.moveVertical(-40);
@@ -75,6 +75,12 @@ public class Picture
             parapet1.changeSize(20);
             parapet1.changeColor("magenta");
             parapet1.makeVisible();
+            
+            parapet2.moveVertical(-40);
+            parapet2.moveHorizontal(-50);
+            parapet2.changeSize(20);
+            parapet2.changeColor("magenta");
+            parapet2.makeVisible();
             
             parapet3.moveVertical(-40);
             parapet3.moveHorizontal(-10);
