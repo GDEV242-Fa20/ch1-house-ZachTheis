@@ -162,8 +162,19 @@ public class Picture
     public void setBlackAndWhite()
     {
         castle.changeColor("black");
-        //window.changeColor("white");
+        left_tower.changeColor("black");
+        right_tower.changeColor("black");
         left_tower_roof.changeColor("black");
+        right_tower_roof.changeColor("black");
+        parapet1.changeColor("black");
+        parapet2.changeColor("black");
+        parapet3.changeColor("black");
+        king.changeColor("black");
+        window1.changeColor("white");
+        window2.changeColor("white");
+        window3.changeColor("white");
+        lower_door.changeColor("white");
+        upper_door.changeColor("white");
         //sun.changeColor("black");
     }
 
@@ -172,9 +183,20 @@ public class Picture
      */
     public void setColor()
     {
-        castle.changeColor("red");
-        //window.changeColor("black");
+        castle.changeColor("blue");
+        left_tower.changeColor("green");
+        right_tower.changeColor("green");
         left_tower_roof.changeColor("green");
+        right_tower_roof.changeColor("green");
+        parapet1.changeColor("blue");
+        parapet2.changeColor("blue");
+        parapet3.changeColor("blue");
+        king.changeColor("magenta");
+        window1.changeColor("yellow");
+        window2.changeColor("yellow");
+        window3.changeColor("yellow");
+        lower_door.changeColor("black");
+        upper_door.changeColor("black");
         //sun.changeColor("yellow");
     }
 }
