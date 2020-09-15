@@ -11,10 +11,17 @@
  */
 public class Picture
 {
-    private Square wall;
+    private Square castle;
+    private Square left_tower;
+    private Square right_tower;
+    private Square parapet1;
+    private Square parapet2;
+    private Square parapet3;
     //private Square window;
-    private Triangle roof;
+    private Triangle left_tower_roof;
+    private Triangle right_tower_roof;
     private Circle sun;
+    private Person king;
     private boolean drawn;
 
     /**
