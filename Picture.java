@@ -21,6 +21,8 @@ public class Picture
     private Triangle left_tower_roof;
     private Triangle right_tower_roof;
     private Circle sun;
+    private Circle window1;
+    private Circle window2;
     private Person king;
     private boolean drawn;
 
@@ -29,10 +31,18 @@ public class Picture
      */
     public Picture()
     {
-        wall = new Square();
+        castle = new Square();
+        left_tower = new Square();
+        right_tower = new Square();
+        parapet1 = new Square();
+        parapet2 = new Square();
+        parapet3 = new Square();
         //window = new Square();
-        roof = new Triangle();  
+        left_tower_roof = new Triangle();  
+        right_tower_roof = new Triangle();
         sun = new Circle();
+        window1 = new Circle();
+        window2 = new Circle();
         drawn = false;
     }
 
@@ -42,11 +52,11 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
-            wall.moveHorizontal(-140);
-            wall.moveVertical(20);
-            wall.changeSize(120);
-            wall.changeColor("blue");
-            wall.makeVisible();
+            castle.moveHorizontal(-140);
+            castle.moveVertical(20);
+            castle.changeSize(120);
+            castle.changeColor("grey");
+            castle.makeVisible();
             
             // window.changeColor("black");
             // window.moveHorizontal(-120);
@@ -54,10 +64,15 @@ public class Picture
             // window.changeSize(40);
             // window.makeVisible();
     
-            roof.changeSize(60, 180);
-            roof.moveHorizontal(20);
-            roof.moveVertical(-60);
-            roof.makeVisible();
+            left_tower_roof.changeSize(60, 180);
+            left_tower_roof.moveHorizontal(20);
+            left_tower_roof.moveVertical(-60);
+            left_tower_roof.makeVisible();
+            
+            right_tower_roof.changeSize(60, 180);
+            right_tower_roof.moveHorizontal(20);
+            right_tower_roof.moveVertical(-60);
+            right_tower_roof.makeVisible();
     
             sun.changeColor("yellow");
             sun.moveHorizontal(100);
@@ -73,9 +88,9 @@ public class Picture
      */
     public void setBlackAndWhite()
     {
-        wall.changeColor("black");
+        castle.changeColor("black");
         //window.changeColor("white");
-        roof.changeColor("black");
+        left_tower_roof.changeColor("black");
         sun.changeColor("black");
     }
 
@@ -84,9 +99,9 @@ public class Picture
      */
     public void setColor()
     {
-        wall.changeColor("red");
+        castle.changeColor("red");
         //window.changeColor("black");
-        roof.changeColor("green");
+        left_tower_roof.changeColor("green");
         sun.changeColor("yellow");
     }
 }
