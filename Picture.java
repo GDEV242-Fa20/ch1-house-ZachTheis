@@ -71,9 +71,10 @@ public class Picture
             right_tower.changeColor("green");
             right_tower.makeVisible();
             
-            king.moveVertical(-140);
-            // king.moveHorizontal(-50);
-            // king.changeColor("magenta");
+            king.moveVertical(-118);
+            king.moveHorizontal(-35);
+            king.changeSize(40,20);
+            king.changeColor("magenta");
             king.makeVisible();
             
             parapet1.moveVertical(-40);
