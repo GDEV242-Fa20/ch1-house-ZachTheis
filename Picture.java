@@ -116,6 +116,12 @@ public class Picture
             window1.moveVertical(40);
             window1.moveHorizontal(-30);
             window1.makeVisible();
+            
+            window2.changeSize(25);
+            window2.changeColor("yellow");
+            window2.moveVertical(40);
+            window2.moveHorizontal(140);
+            window2.makeVisible();
     
             // sun.changeColor("yellow");
             // sun.moveHorizontal(100);
