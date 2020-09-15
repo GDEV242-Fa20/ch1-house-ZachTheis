@@ -55,19 +55,19 @@ public class Picture
             castle.moveHorizontal(-150);
             castle.moveVertical(-20);
             castle.changeSize(230);
-            castle.changeColor("light_grey");
+            castle.changeColor("brown");
             castle.makeVisible();
             
             left_tower.moveHorizontal(-150);
             left_tower.moveVertical(-70);
             left_tower.changeSize(50);
-            left_tower.changeColor("lightGrey");
+            left_tower.changeColor("cyan");
             left_tower.makeVisible();
             
             right_tower.moveHorizontal(30);
             right_tower.moveVertical(-70);
             right_tower.changeSize(50);
-            right_tower.changeColor("light_Grey");
+            right_tower.changeColor("orange");
             right_tower.makeVisible();
             
             // window.changeColor("black");
@@ -77,13 +77,13 @@ public class Picture
             // window.makeVisible();
     
             left_tower_roof.changeSize(40, 30);
-            left_tower_roof.moveHorizontal(-130);
-            left_tower_roof.moveVertical(-110);
+            left_tower_roof.moveHorizontal(-30);
+            left_tower_roof.moveVertical(-130);
             left_tower_roof.makeVisible();
             
-            right_tower_roof.changeSize(40, 30);
-            right_tower_roof.moveHorizontal(70);
-            right_tower_roof.moveVertical(-110);
+            right_tower_roof.changeSize(75, 60);
+            right_tower_roof.moveHorizontal(170);
+            right_tower_roof.moveVertical(-130);
             right_tower_roof.makeVisible();
     
             // sun.changeColor("yellow");
