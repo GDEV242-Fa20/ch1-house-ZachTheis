@@ -6,8 +6,8 @@
  *
  * This class was written as an early example for teaching Java with BlueJ.
  * 
- * @author  Michael Kšlling and David J. Barnes
- * @version 2016.02.29
+ * @author  Zach Theis
+ * @version 2020.09.14
  */
 public class Picture
 {
@@ -19,7 +19,6 @@ public class Picture
     private Square parapet1;
     private Square parapet2;
     private Square parapet3;
-    //private Square window;
     private Triangle left_tower_roof;
     private Triangle right_tower_roof;
     private Circle sun;
@@ -42,10 +41,8 @@ public class Picture
         parapet1 = new Square();
         parapet2 = new Square();
         parapet3 = new Square();
-        //window = new Square();
         left_tower_roof = new Triangle();  
         right_tower_roof = new Triangle();
-        //sun = new Circle();
         window1 = new Circle();
         window2 = new Circle();
         window3 = new Circle();
@@ -54,7 +51,7 @@ public class Picture
     }
 
     /**
-     * Draw this picture.
+     * Draw this picture. It's a castle
      */
     public void draw()
     {
@@ -100,12 +97,6 @@ public class Picture
             parapet3.changeSize(20);
             parapet3.changeColor("blue");
             parapet3.makeVisible();
-            
-            // window.changeColor("black");
-            // window.moveHorizontal(-120);
-            // window.moveVertical(40);
-            // window.changeSize(40);
-            // window.makeVisible();
     
             left_tower_roof.changeSize(50, 50);
             left_tower_roof.moveHorizontal(-25);
@@ -146,12 +137,6 @@ public class Picture
             upper_door.moveVertical(120);
             upper_door.moveHorizontal(-50);
             upper_door.makeVisible();
-    
-            // sun.changeColor("yellow");
-            // sun.moveHorizontal(100);
-            // sun.moveVertical(-40);
-            // sun.changeSize(80);
-            // sun.makeVisible();
             drawn = true;
         }
     }
@@ -175,7 +160,6 @@ public class Picture
         window3.changeColor("white");
         lower_door.changeColor("white");
         upper_door.changeColor("white");
-        //sun.changeColor("black");
     }
 
     /**
@@ -197,6 +181,5 @@ public class Picture
         window3.changeColor("yellow");
         lower_door.changeColor("black");
         upper_door.changeColor("black");
-        //sun.changeColor("yellow");
     }
 }
