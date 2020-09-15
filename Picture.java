@@ -140,6 +140,12 @@ public class Picture
             lower_door.moveVertical(150);
             lower_door.moveHorizontal(-50);
             lower_door.makeVisible();
+            
+            upper_door.changeSize(30);
+            upper_door.changeColor("black");
+            upper_door.moveVertical(120);
+            upper_door.moveHorizontal(-50);
+            upper_door.makeVisible();
     
             // sun.changeColor("yellow");
             // sun.moveHorizontal(100);
