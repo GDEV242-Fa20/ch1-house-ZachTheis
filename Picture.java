@@ -52,11 +52,23 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
-            castle.moveHorizontal(-140);
+            castle.moveHorizontal(-30);
             castle.moveVertical(20);
             castle.changeSize(200);
             castle.changeColor("grey");
             castle.makeVisible();
+            
+            left_tower.moveHorizontal(-130);
+            left_tower.moveVertical(-80);
+            left_tower.changeSize(30);
+            left_tower.changeColor("grey");
+            left_tower.makeVisible();
+            
+            right_tower.moveHorizontal(70);
+            right_tower.moveVertical(-80);
+            right_tower.changeSize(30);
+            right_tower.changeColor("grey");
+            right_tower.makeVisible();
             
             // window.changeColor("black");
             // window.moveHorizontal(-120);
@@ -65,13 +77,13 @@ public class Picture
             // window.makeVisible();
     
             left_tower_roof.changeSize(40, 30);
-            left_tower_roof.moveHorizontal(20);
-            left_tower_roof.moveVertical(-60);
+            left_tower_roof.moveHorizontal(-130);
+            left_tower_roof.moveVertical(-110);
             left_tower_roof.makeVisible();
             
             right_tower_roof.changeSize(40, 30);
-            right_tower_roof.moveHorizontal(20);
-            right_tower_roof.moveVertical(-60);
+            right_tower_roof.moveHorizontal(70);
+            right_tower_roof.moveVertical(-110);
             right_tower_roof.makeVisible();
     
             sun.changeColor("yellow");
