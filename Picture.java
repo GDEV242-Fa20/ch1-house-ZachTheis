@@ -54,7 +54,7 @@ public class Picture
         if(!drawn) {
             castle.moveHorizontal(-140);
             castle.moveVertical(20);
-            castle.changeSize(120);
+            castle.changeSize(200);
             castle.changeColor("grey");
             castle.makeVisible();
             
@@ -64,12 +64,12 @@ public class Picture
             // window.changeSize(40);
             // window.makeVisible();
     
-            left_tower_roof.changeSize(60, 180);
+            left_tower_roof.changeSize(40, 30);
             left_tower_roof.moveHorizontal(20);
             left_tower_roof.moveVertical(-60);
             left_tower_roof.makeVisible();
             
-            right_tower_roof.changeSize(60, 180);
+            right_tower_roof.changeSize(40, 30);
             right_tower_roof.moveHorizontal(20);
             right_tower_roof.moveVertical(-60);
             right_tower_roof.makeVisible();
