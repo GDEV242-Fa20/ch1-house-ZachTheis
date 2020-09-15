@@ -137,6 +137,8 @@ public class Picture
             
             lower_door.changeSize(30);
             lower_door.changeColor("black");
+            lower_door.moveVertical(150);
+            lower_door.moveHorizontal(-50);
             lower_door.makeVisible();
     
             // sun.changeColor("yellow");
