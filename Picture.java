@@ -55,20 +55,25 @@ public class Picture
             castle.moveHorizontal(-150);
             castle.moveVertical(-20);
             castle.changeSize(230);
-            castle.changeColor("brown");
+            castle.changeColor("blue");
             castle.makeVisible();
             
             left_tower.moveHorizontal(-150);
             left_tower.moveVertical(-70);
             left_tower.changeSize(50);
-            left_tower.changeColor("cyan");
+            left_tower.changeColor("blue");
             left_tower.makeVisible();
             
             right_tower.moveHorizontal(30);
             right_tower.moveVertical(-70);
             right_tower.changeSize(50);
-            right_tower.changeColor("orange");
+            right_tower.changeColor("blue");
             right_tower.makeVisible();
+            
+            parapet1.moveVertical(-70);
+            parapet1.changeSize(20);
+            parapet1.changeColor("magenta")
+            parapet1.makeVisible();
             
             // window.changeColor("black");
             // window.moveHorizontal(-120);
