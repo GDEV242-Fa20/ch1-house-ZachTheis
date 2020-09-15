@@ -23,6 +23,7 @@ public class Picture
     private Circle sun;
     private Circle window1;
     private Circle window2;
+    private Circle window3;
     private Person king;
     private boolean drawn;
 
@@ -43,6 +44,7 @@ public class Picture
         //sun = new Circle();
         window1 = new Circle();
         window2 = new Circle();
+        window3 = new Circle();
         king = new Person();
         drawn = false;
     }
@@ -117,11 +119,11 @@ public class Picture
             window1.moveHorizontal(-30);
             window1.makeVisible();
             
-            window2.changeSize(25);
-            window2.changeColor("yellow");
-            window2.moveVertical(40);
-            window2.moveHorizontal(140);
-            window2.makeVisible();
+            window3.changeSize(25);
+            window3.changeColor("yellow");
+            window3.moveVertical(40);
+            window3.moveHorizontal(95);
+            window3.makeVisible();
     
             // sun.changeColor("yellow");
             // sun.moveHorizontal(100);
