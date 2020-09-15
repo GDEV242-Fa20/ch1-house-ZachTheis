@@ -71,7 +71,7 @@ public class Picture
             right_tower.makeVisible();
             
             parapet1.moveVertical(-40);
-            parapet1.moveHorizontal(40);
+            parapet1.moveHorizontal(-80);
             parapet1.changeSize(20);
             parapet1.changeColor("magenta");
             parapet1.makeVisible();
