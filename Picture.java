@@ -113,8 +113,8 @@ public class Picture
             
             window1.changeSize(25);
             window1.changeColor("yellow");
-            window1.moveVertical(-40);
-            window1.moveHorizontal(-80);
+            window1.moveVertical(40);
+            window1.moveHorizontal(-30);
             window1.makeVisible();
     
             // sun.changeColor("yellow");
