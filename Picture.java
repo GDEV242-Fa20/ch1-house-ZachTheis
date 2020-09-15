@@ -77,7 +77,7 @@ public class Picture
             parapet1.makeVisible();
             
             parapet2.moveVertical(-40);
-            parapet2.moveHorizontal(-50);
+            parapet2.moveHorizontal(-45);
             parapet2.changeSize(20);
             parapet2.changeColor("magenta");
             parapet2.makeVisible();
