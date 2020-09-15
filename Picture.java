@@ -40,7 +40,7 @@ public class Picture
         //window = new Square();
         left_tower_roof = new Triangle();  
         right_tower_roof = new Triangle();
-        sun = new Circle();
+        //sun = new Circle();
         window1 = new Circle();
         window2 = new Circle();
         drawn = false;
@@ -52,22 +52,22 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
-            castle.moveHorizontal(-30);
-            castle.moveVertical(20);
+            castle.moveHorizontal(-100);
+            castle.moveVertical(-20);
             castle.changeSize(200);
-            castle.changeColor("grey");
+            castle.changeColor("gray");
             castle.makeVisible();
             
             left_tower.moveHorizontal(-130);
             left_tower.moveVertical(-80);
             left_tower.changeSize(30);
-            left_tower.changeColor("grey");
+            left_tower.changeColor("gray");
             left_tower.makeVisible();
             
             right_tower.moveHorizontal(70);
             right_tower.moveVertical(-80);
             right_tower.changeSize(30);
-            right_tower.changeColor("grey");
+            right_tower.changeColor("gray");
             right_tower.makeVisible();
             
             // window.changeColor("black");
@@ -86,11 +86,11 @@ public class Picture
             right_tower_roof.moveVertical(-110);
             right_tower_roof.makeVisible();
     
-            sun.changeColor("yellow");
-            sun.moveHorizontal(100);
-            sun.moveVertical(-40);
-            sun.changeSize(80);
-            sun.makeVisible();
+            // sun.changeColor("yellow");
+            // sun.moveHorizontal(100);
+            // sun.moveVertical(-40);
+            // sun.changeSize(80);
+            // sun.makeVisible();
             drawn = true;
         }
     }
@@ -103,7 +103,7 @@ public class Picture
         castle.changeColor("black");
         //window.changeColor("white");
         left_tower_roof.changeColor("black");
-        sun.changeColor("black");
+        //sun.changeColor("black");
     }
 
     /**
@@ -114,6 +114,6 @@ public class Picture
         castle.changeColor("red");
         //window.changeColor("black");
         left_tower_roof.changeColor("green");
-        sun.changeColor("yellow");
+        //sun.changeColor("yellow");
     }
 }
