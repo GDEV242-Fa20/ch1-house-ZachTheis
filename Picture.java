@@ -76,14 +76,14 @@ public class Picture
             // window.changeSize(40);
             // window.makeVisible();
     
-            left_tower_roof.changeSize(40, 30);
-            left_tower_roof.moveHorizontal(-30);
-            left_tower_roof.moveVertical(-130);
+            left_tower_roof.changeSize(50, 50);
+            left_tower_roof.moveHorizontal(-25);
+            left_tower_roof.moveVertical(-140);
             left_tower_roof.makeVisible();
             
-            right_tower_roof.changeSize(75, 60);
-            right_tower_roof.moveHorizontal(170);
-            right_tower_roof.moveVertical(-130);
+            right_tower_roof.changeSize(50, 50);
+            right_tower_roof.moveHorizontal(155);
+            right_tower_roof.moveVertical(-140);
             right_tower_roof.makeVisible();
     
             // sun.changeColor("yellow");
